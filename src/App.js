@@ -1,10 +1,10 @@
 import React from "react";
-import Counter from "./components/Counter";
+import Example02 from "./components/Example02";
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      <Example02 />
     </div>
   );
 };

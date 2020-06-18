@@ -14,7 +14,7 @@ const reducer = (state, action) => {
   }
 };
 
-const Counter = () => {
+const Example01 = () => {
   const [count, dispatch] = useReducer(reducer, initialState);
 
   return (
@@ -27,4 +27,4 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+export default Example01;
